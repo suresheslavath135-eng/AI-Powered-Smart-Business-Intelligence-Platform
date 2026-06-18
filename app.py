@@ -84,7 +84,7 @@ if page == "Dashboard":
 
     st.pyplot(fig)
 
-        st.subheader("Revenue by Product Line")
+    st.subheader("Revenue by Product Line")
 
     product_revenue = (
         df.groupby("PRODUCTLINE")["SALES"]
