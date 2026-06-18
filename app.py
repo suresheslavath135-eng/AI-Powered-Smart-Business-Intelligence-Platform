@@ -105,7 +105,7 @@ if page == "Dashboard":
 
     st.pyplot(fig2)
 
-        st.subheader("Top Countries by Revenue")
+    st.subheader("Top Countries by Revenue")
 
     country_revenue = (
         df.groupby("COUNTRY")["SALES"]
