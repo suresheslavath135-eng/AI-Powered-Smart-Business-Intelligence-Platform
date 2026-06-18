@@ -127,7 +127,11 @@ if page == "Dashboard":
 
     st.pyplot(fig3)
 
-    elif page == "Business Insights":
+    if page == "Home":
+    st.write("Home Page")
+
+elif page == "Business Insights":
+    st.write("Business Insights Page")
 
     st.header("Business Insights")
 
